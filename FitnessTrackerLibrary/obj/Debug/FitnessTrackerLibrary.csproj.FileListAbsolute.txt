@@ -1,0 +1,6 @@
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTrackerLibrary\bin\Debug\FitnessTrackerLibrary.dll
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTrackerLibrary\bin\Debug\FitnessTrackerLibrary.pdb
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTrackerLibrary\obj\Debug\FitnessTrackerLibrary.csproj.AssemblyReference.cache
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTrackerLibrary\obj\Debug\FitnessTrackerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTrackerLibrary\obj\Debug\FitnessTrackerLibrary.dll
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTrackerLibrary\obj\Debug\FitnessTrackerLibrary.pdb

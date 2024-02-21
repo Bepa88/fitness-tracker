@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FitnessTrackerLibrary.Models
+namespace FitnessTracker.Models
 {
     public class User
     {

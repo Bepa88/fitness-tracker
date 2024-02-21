@@ -1,0 +1,13 @@
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\bin\Debug\net8.0\FitnessTracker.deps.json
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\bin\Debug\net8.0\FitnessTracker.dll
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\bin\Debug\net8.0\FitnessTracker.pdb
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.csproj.AssemblyReference.cache
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.AssemblyInfoInputs.cache
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.AssemblyInfo.cs
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.csproj.CoreCompileInputs.cache
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.sourcelink.json
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.dll
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\obj\Debug\net8.0\refint\FitnessTracker.dll
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.pdb
+C:\Users\BIKTOP\OneDrive\Vira\FitnessTracker\FitnessTracker.Domain\obj\Debug\net8.0\ref\FitnessTracker.dll

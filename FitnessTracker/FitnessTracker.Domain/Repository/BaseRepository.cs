@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FitnessTracker.Domain.DataAccess;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace FitnessTracker.Domain.Repository
         private DbContext _dbContext;
         private DbSet<T> _dbSet;
 
-        public BaseRepository(DbContext dbContext)
+        public BaseRepository(SportClubDbContext dbContext)
         {
             _dbContext = dbContext;
             _dbSet = dbContext.Set<T>();
@@ -40,17 +41,16 @@ namespace FitnessTracker.Domain.Repository
             return await _dbSet.FindAsync(id);
         }
 
-        public async Task<T> UpdateAsync(T entity)
+        public  Task UpdateAsync(T entity)
         {
-            _dbSet.Update(entity);
-            await _dbContext.SaveChangesAsync();
-            return entity;
+             _dbSet.Update(entity);
+            return Task.CompletedTask;
 
         }
 
         public void Save()
         {
-            _dbContext.SaveChanges();
+            _dbContext.SaveChangesAsync();
         }
 
         private bool disposed = false;

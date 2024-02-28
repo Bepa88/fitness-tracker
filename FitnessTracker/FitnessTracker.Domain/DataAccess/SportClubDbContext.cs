@@ -21,7 +21,7 @@ namespace FitnessTracker.Domain.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\DESKTOP-JQNEKV6;Database=SportClubDb;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-JQNEKV6;Database=SportClubDb;TrustServerCertificate=true;Integrated Security=true;");
         }
     }
 }

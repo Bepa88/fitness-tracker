@@ -16,13 +16,13 @@ namespace FitnessTracker.Domain.DataAccess
         public DbSet <WorkoutSchedule> WorkoutSchedules => Set<WorkoutSchedule>();
         public DbSet<Visiting> Visitings => Set<Visiting>();
 
-        //public SportClubDbContext(DbContextOptions<SportClubDbContext> options) : base(options)
-        //{ 
-        //}
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public SportClubDbContext(DbContextOptions<SportClubDbContext> options) : base(options)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-JQNEKV6;Database=SportClubDb;TrustServerCertificate=true;Integrated Security=true;");
         }
+
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("Server=DESKTOP-JQNEKV6;Database=SportClubDb;TrustServerCertificate=true;Integrated Security=true;");
+        //}
     }
 }

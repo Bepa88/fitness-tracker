@@ -12,6 +12,7 @@ namespace FitnessTracker.Domain.Models
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string UsersIdInBot { get; set; }
+        public ICollection<Visiting> Visitings { get; set; }
+        public long UsersIdInBot { get; set; }
     }
 }

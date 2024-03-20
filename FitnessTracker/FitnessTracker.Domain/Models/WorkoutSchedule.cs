@@ -10,8 +10,10 @@ namespace FitnessTracker.Domain.Models
     {
         public int Id { get; set; }
         public int WorkoutId { get; set; }
-        public int ScheduleId { get; set; }
         public Workout Workout { get; set; }
+        public int ScheduleId { get; set; }
         public Schedule Schedule { get; set; }
+        public int VisitingId { get; set; }
+        public Visiting Visiting { get; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace FitnessTracker.Domain.Repository
 {
     public class BaseRepository<T> : IDisposable, IBaseRepository<T> where T : class
     {
-        private DbContext _dbContext;
+        private SportClubDbContext _dbContext;
         private DbSet<T> _dbSet;
 
         public BaseRepository(SportClubDbContext dbContext)

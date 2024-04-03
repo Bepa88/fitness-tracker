@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace FitnessTracker.BusinessLogic.Service
 {
-    public class WorkoutService
+    public class WorkoutService : IWorkoutService
     {
         private readonly IBaseRepository<Workout> _workoutRepository;
 

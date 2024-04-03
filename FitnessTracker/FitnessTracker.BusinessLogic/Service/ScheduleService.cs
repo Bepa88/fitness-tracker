@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace FitnessTracker.BusinessLogic.Service
 {
-    public interface IService
+    internal class ScheduleService : IScheduleService
     {
-
     }
 }

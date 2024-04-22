@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessTracker.Domain", "Fi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessTracker.BusinessLogic", "FitnessTracker.BusinessLogic\FitnessTracker.BusinessLogic.csproj", "{A34D1FE4-7327-4D83-A567-798E551B8BCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessTracker.UI", "FitnessTracker.UI\FitnessTracker.UI.csproj", "{AA555E83-65B6-4D07-B216-1F1058EA7E39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessTracker.UI", "FitnessTracker.UI\FitnessTracker.UI.csproj", "{AA555E83-65B6-4D07-B216-1F1058EA7E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessTracker.Telegram", "FitnessTracker.Telegram\FitnessTracker.Telegram.csproj", "{1C5EBB28-D535-4528-9251-395294BFA13F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{AA555E83-65B6-4D07-B216-1F1058EA7E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA555E83-65B6-4D07-B216-1F1058EA7E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA555E83-65B6-4D07-B216-1F1058EA7E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5EBB28-D535-4528-9251-395294BFA13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5EBB28-D535-4528-9251-395294BFA13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5EBB28-D535-4528-9251-395294BFA13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5EBB28-D535-4528-9251-395294BFA13F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

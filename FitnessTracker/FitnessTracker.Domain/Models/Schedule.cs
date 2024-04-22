@@ -10,8 +10,9 @@ namespace FitnessTracker.Domain.Models
     public class Schedule
     {
         public int Id { get; set; }
-        public DateTime Start { get; set; }
-        public DateTime End { get; set; }
+        public DayOfWeek DayOfWeek { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
         public ICollection<WorkoutSchedule> WorkoutSchedules { get; set; }
 
     }

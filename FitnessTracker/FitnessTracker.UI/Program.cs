@@ -9,13 +9,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using FitnessTracker.Domain.Repository;
 using FitnessTracker.BusinessLogic;
+using FitnessTracker.Telegram;
+using FitnessTracker.BusinessLogic.Service;
 
 
 namespace FitnessTracker.UI
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
 
             IConfiguration Configuration = new ConfigurationBuilder()
@@ -23,19 +25,20 @@ namespace FitnessTracker.UI
             .Build();
 
             var connectionString = Configuration.GetConnectionString("DefaultConnection");
+            var token = Configuration.GetConnectionString("Token");
 
             var serviceProvider = new ServiceCollection()
                 .AddLogging()
-                .AddScoped(typeof(IBaseRepository<>),typeof(BaseRepository<>))
-                .AddDbContext<SportClubDbContext>(
-                options => options.UseSqlServer(connectionString))
-                .AddBusinessLogicService()
+                //.AddScoped(typeof(IBaseRepository<>),typeof(BaseRepository<>))
+                //.AddDbContext<SportClubDbContext>(
+                //options => options.UseSqlServer(connectionString))
+                .AddBotService(() => token)
+                .AddBusinessLogicService(connectionString)
                 .BuildServiceProvider();
 
+            var botService = serviceProvider.GetService<IBotService>();
+            await botService.Start();
 
-            //var client = new TelegramBotClient("7079921487:AAG5Pfu-CVd8mM6LHiBwrMDj5G0OdGxdN2U");
-            //client.StartReceiving(Update, Error);
-            //Console.ReadLine();
         }
     }
 }

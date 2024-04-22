@@ -9,5 +9,7 @@ namespace FitnessTracker.BusinessLogic.Service
 {
     public interface IUserService
     {
+        Task<User> GetById(int id);
+        Task<User> AddAsync(User entity);
     }
 }

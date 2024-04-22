@@ -12,12 +12,11 @@ namespace FitnessTracker.Domain
 {
     public static class ServiceCollectionExtensionDomain
     {
-
-        public static IServiceCollection AddDomainService(this IServiceCollection services)
+        public static IServiceCollection AddDomainService(this IServiceCollection services, string connectionString)
         {
             services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
-            //services.AddDbContext<SportClubDbContext>(
-            //    options => options.UseSqlServer(connectionString));//????
+            services.AddDbContext<SportClubDbContext>(
+                options => options.UseSqlServer(connectionString));
 
             return services;
         }

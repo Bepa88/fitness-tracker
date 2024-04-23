@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FitnessTracker.UI
+namespace FitnessTracker.Telegram
 {
-    public interface ITelegramBotService
+    public interface IBotService
     {
-        Task StartReceivingAsync();
+        Task Start();
     }
 }

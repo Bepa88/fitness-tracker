@@ -11,14 +11,14 @@ namespace FitnessTracker.BusinessLogic
 {
     public static class ServiceCollectionExtensionBusines
     {
-        public static IServiceCollection AddBusinessLogicService(this IServiceCollection services)
+        public static IServiceCollection AddBusinessLogicService(this IServiceCollection services, string connectionString)
         {
             services.AddScoped<IScheduleService, ScheduleService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IVisitingService, VisitingService>();
             services.AddScoped<IWorkoutScheduleService, WorkoutScheduleService>();
             services.AddScoped<IWorkoutService, WorkoutService>();
-            services.AddDomainService();
+            services.AddDomainService(connectionString);
 
             return services;
         }

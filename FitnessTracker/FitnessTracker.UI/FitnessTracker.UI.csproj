@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FitnessTracker.BusinessLogic\FitnessTracker.BusinessLogic.csproj" />
     <ProjectReference Include="..\FitnessTracker.Domain\FitnessTracker.Domain.csproj" />
+    <ProjectReference Include="..\FitnessTracker.Telegram\FitnessTracker.Telegram.csproj" />
   </ItemGroup>
 
   <ItemGroup>
